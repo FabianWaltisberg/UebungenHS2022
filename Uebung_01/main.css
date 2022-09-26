@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+    padding: 2px;
+    color: blue;
+    font-size: 40px;   
+}
+body {
+    min-width: 700px;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    align: center;
+}
