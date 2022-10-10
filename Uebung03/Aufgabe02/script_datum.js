@@ -1,5 +1,5 @@
 
-"use strict";   // muss immer am Anfang sein
+"use strict";   // muss immer am Anfang des JavaScript sein
 
 function start(){
 
