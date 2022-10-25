@@ -5,6 +5,11 @@ import Typography from "@mui/material/Typography";
 import Toolbar from "@mui/material/Toolbar"; 
 import AppBar from "@mui/material/AppBar";
 import TextField from '@mui/material/TextField';
+import Timergui_ss from './Timergui_ss';
+
+
+
+import Timer_fw_fertig from './Timer_fw_fertig'
 
 const style = { 
     appBar: { 
@@ -34,11 +39,16 @@ function App() {
             </Toolbar>
         </AppBar>
 
+        <Timer countdown = "10"></Timer>
 
+        <Timergui_ss></Timergui_ss>   
+           
         
         
-        
-        <Timer countdown= "10"></Timer>
+       
+
+
+        <Timer_fw_fertig></Timer_fw_fertig>
 
         
         
