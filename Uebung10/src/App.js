@@ -111,16 +111,16 @@ function App() {
                      <div>ERROR API Aufruf fehlgeschlagen</div>{console.log(error)}<br/>
                   </>}
 
-      {data &&  <>
+      
           <MapContainer center={[47.5349, 7.6416]} zoom={2} scrollWheelZoom={true}
           style={{ height: "600px", width: "100%" }} >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'/>
                   
-           <GeoJSON data={data} style={{ weight: 8, opacity: '50%', color: 'blue'}}/>
+          {data &&  <> <GeoJSON data={data} style={{ weight: 8, opacity: '50%', color: 'blue'}}/></>}
 
           </MapContainer>
-                </>}
+                
   
       </>
   );
